@@ -1,0 +1,174 @@
+2012/01/06 18:34:34 [error] [php] Undefined variable: dbh (C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php:30)
+Stack trace:
+#0 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#3 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\Users\nebril\workspace\www\bazy\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\Users\nebril\workspace\www\bazy\index.php(13): CWebApplication->run()
+REQUEST_URI=/bazy/index.php
+in C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php (30)
+in C:\Users\nebril\workspace\www\bazy\index.php (13)
+2012/01/06 20:40:03 [error] [php] include(get_class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Users\nebril\workspace\www\bazy\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php(34): spl_autoload_call()
+#1 C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php(30): Club->getAll()
+#2 C:\Users\nebril\workspace\www\bazy\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(287): SiteController->runAction()
+#5 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#6 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#7 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\Users\nebril\workspace\www\bazy\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Users\nebril\workspace\www\bazy\index.php(13): CWebApplication->run()
+REQUEST_URI=/bazy/index.php
+in C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php (34)
+in C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php (30)
+in C:\Users\nebril\workspace\www\bazy\index.php (13)
+2012/01/06 20:40:53 [error] [php] include(get_class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Users\nebril\workspace\www\bazy\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php(35): spl_autoload_call()
+#1 C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php(30): Club->getAll()
+#2 C:\Users\nebril\workspace\www\bazy\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(287): SiteController->runAction()
+#5 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#6 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#7 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\Users\nebril\workspace\www\bazy\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Users\nebril\workspace\www\bazy\index.php(13): CWebApplication->run()
+REQUEST_URI=/bazy/index.php
+in C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php (35)
+in C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php (30)
+in C:\Users\nebril\workspace\www\bazy\index.php (13)
+2012/01/06 20:41:14 [error] [php] include(get_class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Users\nebril\workspace\www\bazy\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php(35): spl_autoload_call()
+#1 C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php(30): Club->getAll()
+#2 C:\Users\nebril\workspace\www\bazy\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(287): SiteController->runAction()
+#5 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#6 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#7 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\Users\nebril\workspace\www\bazy\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Users\nebril\workspace\www\bazy\index.php(13): CWebApplication->run()
+REQUEST_URI=/bazy/index.php
+in C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php (35)
+in C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php (30)
+in C:\Users\nebril\workspace\www\bazy\index.php (13)
+2012/01/06 20:41:15 [error] [php] include(get_class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Users\nebril\workspace\www\bazy\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php(35): spl_autoload_call()
+#1 C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php(30): Club->getAll()
+#2 C:\Users\nebril\workspace\www\bazy\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(287): SiteController->runAction()
+#5 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#6 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#7 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\Users\nebril\workspace\www\bazy\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Users\nebril\workspace\www\bazy\index.php(13): CWebApplication->run()
+REQUEST_URI=/bazy/index.php
+in C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php (35)
+in C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php (30)
+in C:\Users\nebril\workspace\www\bazy\index.php (13)
+2012/01/06 20:41:22 [error] [php] include(get_class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Users\nebril\workspace\www\bazy\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php(35): spl_autoload_call()
+#1 C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php(30): Club->getAll()
+#2 C:\Users\nebril\workspace\www\bazy\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(287): SiteController->runAction()
+#5 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#6 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#7 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\Users\nebril\workspace\www\bazy\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Users\nebril\workspace\www\bazy\index.php(13): CWebApplication->run()
+REQUEST_URI=/bazy/index.php
+in C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php (35)
+in C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php (30)
+in C:\Users\nebril\workspace\www\bazy\index.php (13)
+2012/01/06 20:41:22 [error] [php] include(get_class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Users\nebril\workspace\www\bazy\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php(35): spl_autoload_call()
+#1 C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php(30): Club->getAll()
+#2 C:\Users\nebril\workspace\www\bazy\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(287): SiteController->runAction()
+#5 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#6 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#7 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\Users\nebril\workspace\www\bazy\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Users\nebril\workspace\www\bazy\index.php(13): CWebApplication->run()
+REQUEST_URI=/bazy/index.php
+in C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php (35)
+in C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php (30)
+in C:\Users\nebril\workspace\www\bazy\index.php (13)
+2012/01/06 20:41:57 [error] [php] array_key_exists() expects parameter 2 to be array, string given (C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php:49)
+Stack trace:
+#0 C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php(30): Club->getAll()
+#1 C:\Users\nebril\workspace\www\bazy\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#2 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(287): SiteController->runAction()
+#4 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#6 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 C:\Users\nebril\workspace\www\bazy\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\Users\nebril\workspace\www\bazy\index.php(13): CWebApplication->run()
+REQUEST_URI=/bazy/index.php
+in C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php (49)
+in C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php (42)
+in C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php (30)
+2012/01/06 21:12:14 [error] [exception.Exception] exception 'Exception' with message 'Column not found:id' in C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php:51
+Stack trace:
+#0 C:\Users\nebril\workspace\www\bazy\protected\models\PutModel.php(65): PutModel->__get('id')
+#1 C:\Users\nebril\workspace\www\bazy\protected\controllers\SiteController.php(32): PutModel->save()
+#2 C:\Users\nebril\workspace\www\bazy\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#8 C:\Users\nebril\workspace\www\bazy\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Users\nebril\workspace\www\bazy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/bazy/index.php
+HTTP_REFERER=http://localhost/bazy/index.php
+---
+2012/01/06 22:00:20 [error] [exception.CException] exception 'CException' with message 'Property "PutDbConnection.tablePrefix" is not defined.' in C:\Users\nebril\workspace\www\bazy\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\Users\nebril\workspace\www\bazy\yii\framework\gii\generators\model\ModelCode.php(56): CComponent->__get('tablePrefix')
+#1 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#2 C:\Users\nebril\workspace\www\bazy\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#3 C:\Users\nebril\workspace\www\bazy\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#4 C:\Users\nebril\workspace\www\bazy\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#5 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#10 C:\Users\nebril\workspace\www\bazy\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\Users\nebril\workspace\www\bazy\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/bazy/index.php/gii/model
+HTTP_REFERER=http://localhost/bazy/index.php/gii/default/index
+---
+2012/01/06 22:01:34 [error] [exception.CException] exception 'CException' with message 'Property "PutDbConnection.tablePrefix" is not defined.' in C:\Users\nebril\workspace\www\bazy\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\Users\nebril\workspace\www\bazy\yii\framework\gii\generators\model\ModelCode.php(56): CComponent->__get('tablePrefix')
+#1 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#2 C:\Users\nebril\workspace\www\bazy\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#3 C:\Users\nebril\workspace\www\bazy\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#4 C:\Users\nebril\workspace\www\bazy\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#5 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\Users\nebril\workspace\www\bazy\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#10 C:\Users\nebril\workspace\www\bazy\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\Users\nebril\workspace\www\bazy\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/bazy/index.php/gii/model
+HTTP_REFERER=http://localhost/bazy/index.php/gii/model
+---
